@@ -29,6 +29,12 @@ if(s.size()==0){
 }
 
 void setage(int a){
+
+if(age<0 || age>100){
+    cout<<"Invalid age"<<endl;
+}
+
+
     age=a;
 }
 
@@ -41,8 +47,21 @@ void setgrade(string g){
 }
 
 void getinfo(){
+    int pin;
     cout<<name<<"\n"<<age<<"\n"<<roll_no<<"\n"<<grade<<endl;
+    cout<<"Enter pin: ";
+    cin>>pin;
 }
+
+void getgrade(int s){
+    if(s==1111){
+        cout<<grade<<endl;
+    }
+
+
+
+}
+
 
 };
 
@@ -56,6 +75,17 @@ int main(){
     s1.setgrade("A+");
 
     s1.getinfo();
+    s1.getgrade()
+
+
+
+    Student s2;
+    s2.setname("");
+    s2.setage(10);
+    s2.setroll_number(21);
+    s2.setgrade("A+");
+
+    s2.getinfo();
 
 
 
