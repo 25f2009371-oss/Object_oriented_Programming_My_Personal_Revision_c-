@@ -4,7 +4,13 @@ using namespace std;
 
 class a{
     public:
-int b;
+char c;
+int a;
+char b;
+
+
+
+
 };
 
 
