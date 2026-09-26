@@ -86,7 +86,7 @@ int main(){
     s2.setgrade("A+");
 
     s2.getinfo();
-
+    s2.getgrade()
 
 
 }
