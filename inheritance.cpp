@@ -60,7 +60,6 @@ int main() {
     s1.get_student();
     Employee e1;
     e1.set_salary();
-    e1.get_salary(
-    );
+    e1.get_salary();
     return 0;
 }
